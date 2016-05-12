@@ -1,0 +1,73 @@
+iframe {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	
+}
+
+h4 {
+	text-align: center;
+	text-decoration: italic;
+}
+
+h6 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	font-style: italic;	
+}
+
+h3 {
+	font-style: italic;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 250px;
+  }
+}
+p {
+	text-align: center;
+}
+
+span {
+	padding-left: 250px;
+}
+
+input {
+	padding-left: 200px;
+	padding-bottom: 20px;
+
+}
+
+h1 {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.img {
+	background-size: 20px;
+}
+
+img {
+	width: 600px;
+}
+
+h5 {
+	font-style: italic;
+	text-align: center;
+}
+
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
